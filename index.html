@@ -2,12 +2,13 @@
 <html>
     <head>
         <script src="https://kit.fontawesome.com/8b843a444f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style/style.css">
 
 
     </head>
     <body>
         <nav id="navbar">
-            <ul>
+            <ul class="nav-list">
                 <li><a href="#welcome-section">About</a></li>
                 <li><a href="#projects">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -15,47 +16,53 @@
 
         </nav>
 
-        <section id="welcome-section">
+        <section id="welcome-section" class="welcome-section">
             <h1>
                 Hey I am Deniz
 
             </h1>
-            <h3>
+            <p>
                 a front-end developer
-            </h3>
+            </p>
 
         </section>
-        <section id="projects">
+        
+            <section id="projects" class="project-section">
+
             <h2 class="project-section-header">
                 These are some of my projects
             </h2> 
-            <a class="project project-tile" href="">
-                <img class="img-project" src="" alt="projects">
-                <p class="project-title">Tribute Page</p>
-            </a>
-            <a class="project project-tile" href="">
-                <img class="img-project" src="" alt="projects">
-                <p class="project-title">Technical Documentation</p>
-            </a>
-            <a class="project project-tile" href="">
-                <img class="img-project" src="" alt="projects">
-                <p class="project-title">Google</p>
-            </a>
-            <a class="project project-tile" href="">
-                <img class="img-project" src="" alt="projects">
-                <p class="project-title">Product Landing Page</p>
-            </a>
-            <a class="project project-tile" href="">
-                <img class="img-project" src="" alt="projects">
-                <p class="project-title">Survey Form</p>
-            </a>
-            <a class="project project-tile" href="">
-                <img class="img-project" src="" alt="projects">
-                <p class="project-title">Tic-Tac-Toe</p>
-            </a>
-           
+
+            <div class="project-grid">
+                <a class="project project-tile" href="">
+                    <img class="img-project" src="https://assets.codepen.io/6213528/internal/screenshots/pens/vYgqJMM.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1620288436&width=960" alt="projects">
+                    <p class="project-title">Tribute Page</p>
+                </a>
+                <a class="project project-tile" href="">
+                    <img class="img-project" src="https://assets.codepen.io/6213528/internal/screenshots/pens/xxqGyLE.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1620640403&width=960" alt="projects">
+                    <p class="project-title">Technical Documentation</p>
+                </a>
+                <a class="project project-tile" href="">
+                    <img class="img-project" src="" alt="projects">
+                    <p class="project-title">Google</p>
+                </a>
+                <a class="project project-tile" href="">
+                    <img class="img-project" src="https://assets.codepen.io/6213528/internal/screenshots/pens/WNpbVLg.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1620629170&width=960" alt="projects">
+                    <p class="project-title">Product Landing Page</p>
+                </a>
+                <a class="project project-tile" href="">
+                    <img class="img-project" src="https://assets.codepen.io/6213528/internal/screenshots/pens/vYxEzPZ.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1620431041&width=960" alt="projects">
+                    <p class="project-title">Survey Form</p>
+                </a>
+                <a class="project project-tile" href="">
+                    <img class="img-project" src="" alt="projects">
+                    <p class="project-title">Tic-Tac-Toe</p>
+                </a>
+    
+            </div>
+            </section>
         </section>
-        <section id="contact">
+        <section id="contact" class="contact-section">
             <div id="contact-header">
                 <h2>Contact Me</h2>
             </div>
@@ -63,7 +70,7 @@
                 <a class="btn contact-details" href="">
                     <i class="fab fa-facebook">Facebook</i>
                 </a>
-                <a id="profile-link" class="btn contact-details" href="https://github.com/denizdayioglu">
+                <a id="profile-link" class="btn contact-details" href="https://github.com/denizdayioglu"target="_blank">
                     <i class="fab fa-github-alt">Github</i>
                 </a>
                 <a class="btn contact-details" href="">
