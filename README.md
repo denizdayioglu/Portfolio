@@ -1,3 +1,3 @@
 # Portfolio
 
-##FreeCodeCamp Portfolio Project
+FreeCodeCamp Portfolio Project
